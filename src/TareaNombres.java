@@ -13,5 +13,6 @@ public class TareaNombres {
         for (int i = 0 ; i<=4 ; i++){
             System.out.println(i+1 + ". " + marcasDeCarros[i]);
         }
+        teclado.close();
     }
 }
