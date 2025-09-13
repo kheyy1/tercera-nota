@@ -10,5 +10,6 @@ public class Ejercicio6EstructurasControl {
         for (int i = 0 ; i <= 10 ; i++){
             System.out.println(i + "x" + Numero + " = " + (i*Numero));
         }
+        teclado.close();
     }
 }
